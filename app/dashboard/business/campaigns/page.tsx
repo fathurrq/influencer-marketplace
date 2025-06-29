@@ -345,7 +345,7 @@ export default function CampaignsPage() {
                   <SelectValue placeholder="Semua Status" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">Semua Status</SelectItem>
+                  <SelectItem value="all">Semua Status</SelectItem>
                   <SelectItem value="active">Aktif</SelectItem>
                   <SelectItem value="paused">Dijeda</SelectItem>
                   <SelectItem value="completed">Selesai</SelectItem>
@@ -358,7 +358,7 @@ export default function CampaignsPage() {
                   <SelectValue placeholder="Semua Kategori" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">Semua Kategori</SelectItem>
+                  <SelectItem value="all">Semua Kategori</SelectItem>
                   <SelectItem value="Beauty">Beauty</SelectItem>
                   <SelectItem value="Fashion">Fashion</SelectItem>
                   <SelectItem value="Technology">Technology</SelectItem>
